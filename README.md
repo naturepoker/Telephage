@@ -2,7 +2,8 @@
 
 ### From proteins of interest to phage phylogeny in single line!
 
-
+'''
+{
             ,@##          %..      %#/            
              &%/          %,.      %#/            
             *&%.          %..      %#(            
@@ -19,11 +20,13 @@
                         %,%                       
                         %#%                       
                        (%%%                       
-                        (%                                                                          "
+                        (%                                                                          
                  
-           **Binomica Labs - TelePhage**         
+           Binomica Labs - TelePhage         
               
-            *Small Thoughtful Science*             
+           Small Thoughtful Science             
+}
+'''
 
 ---
 
