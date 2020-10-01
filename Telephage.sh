@@ -189,7 +189,7 @@ echo "                                                                   "
 
 echo "                                                  "
 echo "##################################################"
-echo "## Aligning the pfam matching protein seqeunces ##"
+echo "## Aligning the pfam matching protein sequences ##"
 echo "##################################################"
 echo "                                                  "
 
@@ -207,7 +207,7 @@ cp "$1"_similar_proteins.aln TP_output/
 
 echo "                                                  "
 echo "##################################################"
-echo "##  Running FastTree on the protein alignement  ##"
+echo "##   Running FastTree on the protein alignment  ##"
 echo "##################################################"
 echo "                                                  "
 
