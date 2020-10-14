@@ -145,7 +145,7 @@ echo "##  Top pfam hit for the input is $input_pfam    ##"
 echo "##################################################"
 echo "                                                  "
 
-zcat allphage-pf33.1.pfam | grep -i $input_pfam | awk '{print $2}' > "$1"_similar_protein_accessions.acc && echo "Protein accessions list created" || echo "Protein accession list compilation failed" 
+zcat allphage-pf33.1.pfam.gz | grep -i $input_pfam | awk '{print $2}' > "$1"_similar_protein_accessions.acc && echo "Protein accessions list created" || echo "Protein accession list compilation failed" 
 cp "$1"_similar_protein_accessions.acc TP_output/
 
 #Extracting full protein sequences associated with the accession numbers
