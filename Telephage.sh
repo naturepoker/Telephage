@@ -24,7 +24,7 @@ if ! command -v taxonkit > /dev/null; then
 	chmod +x taxonkit 
 fi
 
-if ! command -v fasttree > /dev/null; then
+if ! command -v FastTree > /dev/null; then
 	printf "\n Fasttree not found in path." 
 	printf "\n Activating the included executable"
 	chmod +x FastTreeDbl 
@@ -214,11 +214,11 @@ echo "                                                  "
 #Using FastTreeDbl to generate a default phylogenetic tree from the alignment
 #Choosing to use included binary or system call
 
-if ! command -v fasttree > /dev/null
+if ! command -v FastTree > /dev/null
 then
 	./FastTreeDbl  "$1"_similar_proteins.aln > "$1"_similar_proteins.tre
 else
-	fasttree "$1"_similar_proteins.aln > "$1"_similar_proteins.tre
+	FastTree "$1"_similar_proteins.aln > "$1"_similar_proteins.tre
 fi
 
 cp "$1"_similar_proteins.tre TP_output/ 
